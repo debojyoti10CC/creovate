@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creovate - Creative Design Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <svg viewBox="0 0 80 80">
+        <circle id="loader-circle" cx="40" cy="40" r="32"></circle>
+      </svg>
+      <div class="loader-text">CREOVATE</div>
+    </div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor-dot-outline"></div>
+  <div class="cursor-dot"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">
+        <span>Creovate</span>
+      </div>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#services" class="nav-item">Services</a></li>
+        <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+        <li><a href="#team" class="nav-item">Team</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+        <h1 class="animate-text">We are <span class="highlight">Creovate</span></h1>
+        <h2 class="animate-text delay-1">Turning ideas into visual stories</h2>
+        <p class="animate-text delay-2">A creative design agency specializing in graphic design with plans to expand into web development and video editing.</p>
+        <div class="hero-buttons animate-text delay-3">
+          <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image animate-fade-in">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="shape-3"></div>
+        <div class="shape-4"></div>
+        <div class="shape-5"></div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#services">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div class="hero-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>What we do best</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card active" data-aos="zoom-in" data-aos-delay="100">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Professional designs for t-shirts, posters, standees, flyers, and more. We bring your vision to life with creative and eye-catching visuals.</p>
+          <div class="service-hover-content">
+            <ul>
+              <li>T-shirt Designs</li>
+              <li>Posters & Flyers</li>
+              <li>Standees & Banners</li>
+              <li>Brand Identity</li>
+              <li>Marketing Materials</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card coming-soon" data-aos="zoom-in" data-aos-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Coming soon! Responsive websites and web applications tailored to your needs.</p>
+          <span class="badge">Coming Soon</span>
+          <div class="service-hover-content">
+            <ul>
+              <li>Website Design</li>
+              <li>E-commerce Solutions</li>
+              <li>Web Applications</li>
+              <li>UI/UX Design</li>
+              <li>Maintenance & Support</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card coming-soon" data-aos="zoom-in" data-aos-delay="300">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Coming soon! Professional video editing services to help tell your story through motion.</p>
+          <span class="badge">Coming Soon</span>
+          <div class="service-hover-content">
+            <ul>
+              <li>Video Editing</li>
+              <li>Motion Graphics</li>
+              <li>Animation</li>
+              <li>Social Media Content</li>
+              <li>Promotional Videos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-bg-shapes">
+      <div class="bg-shape-1"></div>
+      <div class="bg-shape-2"></div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <!-- TODO: Replace the placeholder image comments with actual image paths -->
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Portfolio</h2>
+        <p>Some of our best work</p>
+      </div>
+      <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="100">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tshirt">T-Shirts</button>
+        <button class="filter-btn" data-filter="poster">Posters</button>
+        <button class="filter-btn" data-filter="standee">Standees</button>
+        <button class="filter-btn" data-filter="thumbnail">Thumbnail</button>
+      </div>
+      <div class="portfolio-grid">
+        <!-- T-Shirt Designs (4) -->
+        <div class="portfolio-item tshirt" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-image">
+            <img src="shirt1.jpg" alt="T-Shirt Design 1">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>T-Shirt Design 1</h3>
+                <p>Creative t-shirt design for brand XYZ</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item tshirt" data-aos="fade-up" data-aos-delay="150">
+          <div class="portfolio-image">
+            <img src="shirt2.png" alt="T-Shirt Design 2">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>T-Shirt Design 2</h3>
+                <p>Summer collection for local brand</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item tshirt" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-image">
+            <img src="shirt3.png" alt="T-Shirt Design 3">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>T-Shirt Design 3</h3>
+                <p>Urban streetwear collection</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item tshirt" data-aos="fade-up" data-aos-delay="250">
+          <div class="portfolio-image">
+            <img src="shirt4.png" alt="T-Shirt Design 4">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>T-Shirt Design 4</h3>
+                <p>Custom event merchandise</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Poster Designs (9) -->
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-image">
+            <img src="poster1.png" alt="Poster Design 1">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 1</h3>
+                <p>Music festival promotional poster</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="150">
+          <div class="portfolio-image">
+            <img src="poster2.png" alt="Poster Design 2">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 2</h3>
+                <p>Product launch campaign</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-image">
+            <img src="poster3.png" alt="Poster Design 3">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 3</h3>
+                <p>Art exhibition announcement</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="250">
+          <div class="portfolio-image">
+            <img src="poster4.png" alt="Poster Design 4">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 4</h3>
+                <p>Corporate event invitation</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="300">
+          <div class="portfolio-image">
+            <img src="poster5.png" alt="Poster Design 5">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 5</h3>
+                <p>Movie premiere announcement</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="350">
+          <div class="portfolio-image">
+            <img src="poster6.png" alt="Poster Design 6">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 6</h3>
+                <p>Restaurant grand opening</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="400">
+          <div class="portfolio-image">
+            <img src="poster6.png" alt="Poster Design 7">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 7</h3>
+                <p>Fitness challenge promotion</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="450">
+          <div class="portfolio-image">
+            <img src="poster7.png" alt="Poster Design 8">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 8</h3>
+                <p>Educational workshop series</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item poster" data-aos="fade-up" data-aos-delay="500">
+          <div class="portfolio-image">
+            <img src="poster8.png" alt="Poster Design 9">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Poster Design 9</h3>
+                <p>Holiday season sale</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thumbnail Design (1) -->
+        <div class="portfolio-item thumbnail" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-image">
+            <img src="thumbnail1.png" alt="Thumbnail Design">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Thumbnail Design</h3>
+                <p>YouTube channel art and thumbnail</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Standee Designs (3) -->
+        <div class="portfolio-item standee" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-image">
+            <img src="standee1.PNG" alt="Standee Design 1">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Standee Design 1</h3>
+                <p>Retail store promotional standee</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item standee" data-aos="fade-up" data-aos-delay="150">
+          <div class="portfolio-image">
+            <img src="standee2.png" alt="Standee Design 2">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Standee Design 2</h3>
+                <p>Conference welcome display</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item standee" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-image">
+            <img src="standee3.png" alt="Standee Design 3">
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3>Standee Design 3</h3>
+                <p>Product showcase standee</p>
+                <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal -->
+    <div class="portfolio-modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div class="modal-image-container">
+          <img src="/placeholder.svg" alt="Portfolio Item" id="modal-image">
+        </div>
+        <div class="modal-info">
+          <h3 id="modal-title"></h3>
+          <p id="modal-description"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Team</h2>
+        <p>The creative minds behind Creovate</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member-image">
+            <img src="https://placeholder.svg?height=400&width=400" alt="Team Member 1">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Team Member 1</h3>
+            <p>Graphic Designer</p>
+            <div class="member-bio">
+              <p>Creative professional with expertise in digital and print design. Specializes in branding and visual identity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-image">
+            <img src="https://placeholder.svg?height=400&width=400" alt="Team Member 2">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Team Member 2</h3>
+            <p>Creative Director</p>
+            <div class="member-bio">
+              <p>Visionary leader with a passion for innovative design solutions. Guides the creative direction of all projects.</p>
+            </div>
+          </div>
+        </div>
+        <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-image">
+            <img src="https://placeholder.svg?height=400&width=400" alt="Team Member 3">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Team Member 3</h3>
+            <p>Project Manager</p>
+            <div class="member-bio">
+              <p>Detail-oriented professional who ensures all projects are delivered on time and exceed client expectations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="team-bg-shapes">
+      <div class="team-shape-1"></div>
+      <div class="team-shape-2"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+        <p>Let's work together on your next project</p>
+      </div>
+      <div class="contact-wrapper" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Your Address Here</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>info@creovate.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+1 234 567 8900</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <span class="input-focus-effect"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+              <span class="input-focus-effect"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subject" required>
+              <span class="input-focus-effect"></span>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" required></textarea>
+              <span class="input-focus-effect"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contact-bg-shapes">
+      <div class="contact-shape-1"></div>
+      <div class="contact-shape-2"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span>Creovate</span>
+          <p>Turning ideas into visual stories</p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Creovate. All rights reserved.</p>
+      </div>
+    </div>
+    <div class="footer-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#6c63ff" fill-opacity="0.1" d="M0,128L48,144C96,160,192,192,288,197.3C384,203,480,181,576,165.3C672,149,768,139,864,154.7C960,171,1056,213,1152,218.7C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+      </svg>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
