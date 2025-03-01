@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add AOS import here.  Assuming you are using a CDN, you would add something like this to your HTML file:
     // <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     AOS.init({
-      duration: 80,
+      duration: 8,
       easing: "ease-in-out",
       once: true,
       mirror: false,
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
           preloader.style.opacity = "0"
           setTimeout(() => {
             preloader.style.display = "none"
-          }, 500)
-        }, 1000)
+          }, 5)
+        }, 10)
       })
     }
   
